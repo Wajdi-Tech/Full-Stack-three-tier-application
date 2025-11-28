@@ -63,8 +63,6 @@ curl http://<node-ip>:30080/api/submissions   # si backend exposé en NodePort (
 
 Captures d'écran
 
-Ajoute tes captures dans docs/screenshots/ puis insère-les ici :
+![Form submission](https://raw.githubusercontent.com/Wajdi-Tech/Full-Stack-three-tier-application/main/docs/screenshots/form.png)
 
-![Form submission](./docs/screenshots/form.png)
-![Liste pods soumissions](./docs/screenshots/istpods.png)
-
+![Liste pods soumissions](https://raw.githubusercontent.com/Wajdi-Tech/Full-Stack-three-tier-application/main/docs/screenshots/listpods.png)
