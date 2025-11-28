@@ -65,6 +65,6 @@ Captures d'écran
 
 Ajoute tes captures dans docs/screenshots/ puis insère-les ici :
 
-![Form submission](docs/screenshots/form.png)
-![Liste pods soumissions](docs/screenshots/listpods.png)
+![Form submission](/docs/screenshots/form.png)
+![Liste pods soumissions](/docs/screenshots/listpods.png)
 
