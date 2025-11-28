@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: back-end1
+  labels:
+    app: back-end1
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: back-end1
+  template:
+    metadata:
+      labels:
+        app: back-end1
+    spec:
+      containers:
+        - name: back-end1
+          image: wajditech/back-end1:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 4000
+              name: http
+          env:
+            - name: PORT
+              value: "4000"
+            - name: BACKEND2_URL
+              value: "http://back-end2-service:5000"  # using service name
+          readinessProbe:
+            httpGet:
+              path: /healthz
+              port: 4000
+            initialDelaySeconds: 3
+            periodSeconds: 5
+
