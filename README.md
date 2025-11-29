@@ -73,5 +73,5 @@ kubectl logs deployment/back-end1
 Captures d'écran:
 
 ![Form](captures/form.png)
-![Listpods](captures/listpods.png)
+![Listpods](captures/listpods2.png)
 
