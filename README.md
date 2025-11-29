@@ -63,6 +63,6 @@ curl http://<node-ip>:30080/api/submissions   # si backend exposé en NodePort (
 
 Captures d'écran
 
-![Form submission](./docs/screenshots/form.png)
-![Liste pods soumissions](./docs/screenshots/listpods.png)
+![Form](captures/form.png)
+![listpods](captures/listpods.png)
 
