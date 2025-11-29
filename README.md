@@ -63,8 +63,9 @@ curl http://<node-ip>:30080/api/submissions   # si backend exposé en NodePort (
 
 Captures d'écran
 
-![Form submission](https://raw.githubusercontent.com/Wajdi-Tech/Full-Stack-three-tier-application/main/docs/screenshots/form.png)
+![form](https://raw.githubusercontent.com/Wajdi-Tech/Full-Stack-three-tier-application/main/docs/screenshots/form.png)
 
-![Liste pods soumissions](https://raw.githubusercontent.com/Wajdi-Tech/Full-Stack-three-tier-application/main/docs/screenshots/listpods.png)
+![listpods](https://raw.githubusercontent.com/Wajdi-Tech/Full-Stack-three-tier-application/main/docs/screenshots/listpods.png)
+
 
 
